@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    font-family: 'montserrat';
+}
+#banner {
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    padding: 22px;
+}
+#hero {
+    background-image: linear-gradient(to right, #1ab9cb , #078aa4);;
+    height: 60vh;
+    display: flex;
+}
+#hero-content {
+    width: 100%;
+    align-self: center;
+}
+#hero-title {
+    color: white;
+    font-size: 2.8em;
+}
+#hero-subtitle {
+    color: #87d3dd;
+    margin-right: 50px;
+}
+#cta-button {
+    color: white;
+    font-size: 3em;
+}
+#text-box {
+    height: 30vh;
+}
+#text-box-title {
+    background-color: #27212c;
+    color: #a593b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text-box-square {
+    background-color: #bc3183;
+    color: white;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-box {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#gallery-1 {
+    background-image: url('../Assets/1.png');
+}
+#gallery-2 {
+    background-image: url('../Assets/2.png');
+}
+#gallery-3 {
+    background-image: url('../Assets/3.png');
+}
+#content {
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content-title {
+    color: #58a4b7;
+}
