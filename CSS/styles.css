@@ -1,8 +1,10 @@
+/* Set HTML & Body to full width page layout */
 html, body {
     margin: 0;
     width: 100%;
     font-family: 'montserrat';
 }
+/* Navbar Section */
 #banner {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ html, body {
 .navbar-brand {
     padding: 22px;
 }
+/* Hero Banner Section */
 #hero {
     background-image: linear-gradient(to right, #1ab9cb , #078aa4);;
     height: 60vh;
@@ -31,6 +34,7 @@ html, body {
     color: white;
     font-size: 3em;
 }
+/* Text Box Section */
 #text-box {
     height: 30vh;
 }
@@ -49,9 +53,10 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+/* Gallery Picture Section */
 .gallery-box {
-    height: 300px;
-    width: 300px;
+    width: 100%;
+  height: 30vw;;
     background-size: cover;
     background-position: center;
 }
@@ -64,6 +69,7 @@ html, body {
 #gallery-3 {
     background-image: url('../Assets/3.png');
 }
+/* Content Section */
 #content {
     background-color: rgb(226, 226, 226);
     justify-content: center;
