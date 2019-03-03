@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     width: 100%;
     font-family: 'montserrat';
+    overflow-x: hidden;
 }
 /* Navbar Section */
 #banner {
@@ -24,15 +25,22 @@ html, body {
 }
 #hero-title {
     color: white;
-    font-size: 2.8em;
+    font-size: 3em;
 }
 #hero-subtitle {
     color: #87d3dd;
+    font-size: 2em;
     margin-right: 50px;
 }
 #cta-button {
     color: white;
     font-size: 3em;
+}
+i {
+    transition: all 0.2s ease-in-out;
+}
+i:hover {
+    transform: scale(1.2);
 }
 /* Text Box Section */
 #text-box {
@@ -41,9 +49,11 @@ html, body {
 #text-box-title {
     background-color: #27212c;
     color: #a593b4;
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 #text-box-square {
     background-color: #bc3183;
@@ -52,13 +62,21 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+#text-box-square:hover {
+    box-shadow: inset 0 0 0 25px #9c286c;
 }
 /* Gallery Picture Section */
 .gallery-box {
     width: 100%;
-  height: 30vw;;
+    height: 500px;
     background-size: cover;
     background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+.gallery-box:hover {
+    opacity: 0.7;
 }
 #gallery-1 {
     background-image: url('../Assets/1.png');
@@ -78,4 +96,52 @@ html, body {
 }
 .content-title {
     color: #58a4b7;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
+#newsletter-signup {
+    text-align: center;
+    background-color: #27212c;
+    color: #a593b4;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control {
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+.btn {
+    width: 100px;
+    background-color: #a593b4;
+    border: none;
+    color: white;
+}
+.btn:hover {
+    background-color: #6f607a;
+}
+.tagline {
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    #hero-title {
+        font-size: 2.2em;
+    }
+    #hero-subtitle {
+        font-size: 1.5em;
+    }
+    #cta-button {
+        font-size: 2.5em;
+    }
+    #text-box-title h2 {
+        font-size: 0.8em;
+    }
+    #text-box-square {
+        font-size: 2.5em;
+    }
+  }
