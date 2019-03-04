@@ -103,7 +103,7 @@ i:hover {
     text-align: center;
     background-color: #27212c;
     color: #a593b4;
-    padding: 100px;
+    padding: 100px 70px 100px 70px;
     display: flex;
     align-items: center;
     justify-content: center;
